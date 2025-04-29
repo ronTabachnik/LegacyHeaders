@@ -6,7 +6,7 @@
 //  Copyright (c) 2013년 Byungkook Jang. All rights reserved.
 //
 
-@import LegacyHeaders;
+#import "BKForwardingTextField.h"
 
 @interface BKCurrencyTextField : BKForwardingTextField
 
