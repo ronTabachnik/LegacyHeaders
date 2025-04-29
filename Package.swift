@@ -12,17 +12,16 @@ let package = Package(
             targets: ["LegacyHeaders"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/ronTabachnik/Masonry.git", branch: "master")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "LegacyHeaders",
-            dependencies: ["Masonry"],
+            dependencies: [],
             path: "Sources/LegacyHeaders",
             publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath("include")
+                .headerSearchPath("include"),
+                .headerSearchPath("Masonry")
             ]
         )
     ]
