@@ -26,6 +26,7 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("include"),
                 .headerSearchPath("Masonry"),
+                .headerSearchPath("BKMoney"),
             ]
         )
     ]
