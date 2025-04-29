@@ -12,7 +12,7 @@
 //#import "ActiveSessionManager.h"
 #import "AppStyleUtilities.h"
 #import "UILabel+Extension.h"
-#import "UIImage+GIF.h"
+#import "SDWebImage/UIImage+GIF.h"
 #import "NSObject+PerformBlockAfterDelay.h"
 #import "Zeekr-Swift.h"
 
