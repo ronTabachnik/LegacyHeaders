@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/ronTabachnik/Masonry.git", branch: "main")
+        .package(url: "https://github.com/ronTabachnik/Masonry.git", branch: "master")
     ],
     targets: [
         .target(
