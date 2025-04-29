@@ -21,7 +21,8 @@ let package = Package(
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("include"),
-                .headerSearchPath("Masonry")
+                .headerSearchPath("Masonry"),
+                .headerSearchPath("Zeekr"),
             ]
         )
     ]
