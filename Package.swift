@@ -12,19 +12,21 @@ let package = Package(
             targets: ["LegacyHeaders"]
         )
     ],
-    dependencies: [],
+    dependencies: [
+            .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.0.0") // ✅
+        ],
     targets: [
         .target(
             name: "LegacyHeaders",
-            dependencies: [],
+            dependencies: [
+                            .product(name: "SDWebImage", package: "SDWebImage")
+                        ],
             path: "Sources/LegacyHeaders",
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("include"),
                 .headerSearchPath("Masonry"),
                 .headerSearchPath("MBProgressHUD"),
-                .headerSearchPath("SDWebImage"),
-                
             ]
         )
     ]
