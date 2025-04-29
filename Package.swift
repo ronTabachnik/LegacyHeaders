@@ -23,6 +23,8 @@ let package = Package(
                 .headerSearchPath("include"),
                 .headerSearchPath("Masonry"),
                 .headerSearchPath("MBProgressHUD"),
+                .headerSearchPath("SDWebImage"),
+                
             ]
         )
     ]
