@@ -6,10 +6,9 @@
 //  Copyright (c) 2015 Cpart LTD. All rights reserved.
 //
 
-//#import <Foundation/Foundation.h>
-@import AJWValidator;
-//#import <AJWValidator/AJWValidator.h>
-@import Foundation;
+#import <Foundation/Foundation.h>
+#import <AJWValidator/AJWValidator.h>
+//@import Foundation;
 //@import AJWValidator;
 
 @interface AJWValidatorCreator : NSObject
