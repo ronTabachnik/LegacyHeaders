@@ -14,7 +14,7 @@
 #import "UILabel+Extension.h"
 #import "SDWebImage/UIImage+GIF.h"
 #import "NSObject+PerformBlockAfterDelay.h"
-#import "Zeekr-Swift.h"
+//#import "Zeekr-Swift.h"
 
 @interface LoaderSpinner : UIView
 @end
